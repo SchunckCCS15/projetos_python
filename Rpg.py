@@ -1,5 +1,7 @@
 import random
 
+
+
 def personagem():
     força = random.randint(1, 10)
     print('Você tem {} pontos de força'.format(força))
