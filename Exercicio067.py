@@ -5,8 +5,7 @@ while True:
         break
     print('-'*20)
     for p in range(1, 11):
-        resultado = num_tabuada * cont
-        print(f'{num_tabuada} x {cont} = {resultado}')
+        print(f'{num_tabuada} x {cont} = {num_tabuada*cont}')
         cont += 1
     cont = 1
     print('-'*20)
